@@ -17,15 +17,16 @@ body {
 }
 
 header {
-    height: 80vh;
+    background: linear-gradient(rgba(10, 10, 10, 0.7), rgba(10, 10, 10, 0.7)), 
+                url('banner.jpg'); /* Asegúrate de subir una foto llamada banner.jpg */
+    background-size: cover;
+    background-position: center;
+    height: 70vh; /* Esto hace que el banner ocupe buen espacio en la pantalla */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('banner.jpg');
-    background-size: cover;
-    background-position: center;
-    text-align: center;
+    border-bottom: 2px solid #ce1212; /* Esa línea roja elegante que separa el banner del resto */
 }
 
 h1 { font-size: 4rem; letter-spacing: 5px; margin-bottom: 10px; }
